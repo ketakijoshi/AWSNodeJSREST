@@ -1,0 +1,12 @@
+This is an simple nodejs using REST APIs instead of HTML.
+
+usage: 
+1. Deploy on AWS Beanstalk(version 1.30)
+
+2. Append to the generated link the following : "\calc\add\3\4" i.e "\calc\operation\operand1\operand2"
+
+3. operation = add/ multiply/ subtract/ divide / pow / mod
+
+
+
+Eg. http://sample-env-2.qbkgysmj8a.us-west-2.elasticbeanstalk.com/calc/multiply/675/24
